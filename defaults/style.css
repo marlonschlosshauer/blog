@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+.validation {
+    display: none;
+}
+
+#postamble {
+    margin: auto;
+    max-width: 60em;
+    text-align: center;
+}
+
+.title {
+    padding: 48px;
+}
+
+#content, .outline-2 {
+    padding: 16px;
+}
+
+
+img {
+  max-width: 60em;
+}
+
+table {
+  margin: auto;
+  margin: 72px auto;
+}
+
+body {
+  margin: ;
+  padding-bottom: 32px;
+}
