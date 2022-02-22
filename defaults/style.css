@@ -22,15 +22,45 @@ body {
 
 
 img {
-  max-width: 60em;
+    max-width: 60em;
 }
 
 table {
-  margin: auto;
-  margin: 72px auto;
+    margin: auto;
+    margin: 72px auto;
 }
 
 body {
-  margin: ;
-  padding-bottom: 32px;
+    padding-bottom: 32px;
+}
+
+
+a:link {
+    color: #008B8B;
+}
+
+a:visited {
+    color: #9790C8;
+}
+
+/* Alternative colors
+a:link {
+    color: #FF3746;
+}
+
+
+a:visited {
+    color: #FDB913;
+}
+*/
+
+@media (prefers-color-scheme: dark) {
+    body {
+	background-color: black;
+    }
+
+    h1, h2, h3, p, ol, table {
+	color: white;
+    }
+
 }
